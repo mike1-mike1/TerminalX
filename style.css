@@ -1,0 +1,18 @@
+/* Style to keep the game canvas centered and responsive */
+body, html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+canvas {
+    border: 2px solid #000;
+    width: 100%;
+    height: auto;
+    max-width: 100vw;
+    max-height: 100vh;
+}
